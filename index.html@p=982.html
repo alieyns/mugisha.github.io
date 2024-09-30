@@ -68,12 +68,20 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend-lite.min.css@ver=3.21.8.css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend.min.css@ver=3.24.4.css' media='all' />
 <link rel='stylesheet' id='swiper-css' href='wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css@ver=8.4.5.css' media='all' />
-<link rel='stylesheet' id='elementor-post-6-css' href='wp-content/uploads/elementor/css/post-6.css@ver=1717555521.css' media='all' />
-<link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/global.css@ver=1717576594.css' media='all' />
-<link rel='stylesheet' id='elementor-post-982-css' href='wp-content/uploads/elementor/css/post-982.css@ver=1726629754.css' media='all' />
-<link rel='stylesheet' id='eael-general-css' href='wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css@ver=5.9.22.css' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css@ver=3.24.4.css' media='all' />
+<link rel='stylesheet' id='elementor-post-6-css' href='wp-content/uploads/elementor/css/post-6.css@ver=1727662621.css' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/global.css@ver=1727662622.css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='wp-content/plugins/elementor/assets/css/widget-image.min.css@ver=3.24.4.css' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='wp-content/plugins/elementor/assets/css/widget-icon-list.min.css@ver=3.24.4.css' media='all' />
+<link rel='stylesheet' id='widget-divider-css' href='wp-content/plugins/elementor/assets/css/widget-divider.min.css@ver=3.24.4.css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='wp-content/plugins/elementor/assets/css/widget-heading.min.css@ver=3.24.4.css' media='all' />
+<link rel='stylesheet' id='widget-text-editor-css' href='wp-content/plugins/elementor/assets/css/widget-text-editor.min.css@ver=3.24.4.css' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='wp-content/plugins/elementor/assets/css/widget-social-icons.min.css@ver=3.24.4.css' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css@ver=3.24.4.css' media='all' />
+<link rel='stylesheet' id='elementor-post-982-css' href='wp-content/uploads/elementor/css/post-982.css@ver=1727667047.css' media='all' />
+<link rel='stylesheet' id='eael-general-css' href='wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css@ver=6.0.5.css' media='all' />
 <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.5.4' media='all' />
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><!--[if IE]>
 <script src="http://portfolio.test/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.6.16" id="astra-flexibility-js"></script>
@@ -89,19 +97,7 @@ flexibility(document.documentElement);
 <link rel='shortlink' href='index.html@p=982.html' />
 <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=http%253A%252F%252Fportfolio.test%252Fportfolio%252F" />
 <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=http%253A%252F%252Fportfolio.test%252Fportfolio%252F&amp;format=xml" />
-		<script>
-			( function() {
-				window.onpageshow = function( event ) {
-					// Defined window.wpforms means that a form exists on a page.
-					// If so and back/forward button has been clicked,
-					// force reload a page to prevent the submit button state stuck.
-					if ( typeof window.wpforms !== 'undefined' && event.persisted ) {
-						window.location.reload();
-					}
-				};
-			}() );
-		</script>
-		<meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_lazyload; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<meta name="generator" content="Elementor 3.24.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 			<style>
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
@@ -184,14 +180,13 @@ flexibility(document.documentElement);
 		<div class="elementor-element elementor-element-2f46c76f e-con-full e-flex e-con e-child" data-id="2f46c76f" data-element_type="container">
 				<div class="elementor-element elementor-element-5ce152bf elementor-widget elementor-widget-image" data-id="5ce152bf" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.21.0 - 26-05-2024 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>											<a href="index.html">
+														<a href="index.html">
 							<img decoding="async" width="200" height="91" src="wp-content/uploads/2024/06/ab-logo-x200x91.png" class="attachment-full size-full wp-image-174" alt="" />								</a>
 													</div>
 				</div>
 				<div class="elementor-element elementor-element-60298f78 elementor-icon-list--layout-inline jf-menu elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="60298f78" data-element_type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items elementor-inline-items">
+					<ul class="elementor-icon-list-items elementor-inline-items">
 							<li class="elementor-icon-list-item elementor-inline-item">
 											<a href="index.html">
 
@@ -220,7 +215,7 @@ flexibility(document.documentElement);
 					<div class="elementor-button-wrapper">
 			<a class="elementor-button elementor-button-link elementor-size-sm" href="https://tiktok.com/@moustacheki" target="_blank">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
+						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fab-tiktok" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"></path></svg>			</span>
 								</span>
 					</a>
@@ -247,8 +242,7 @@ flexibility(document.documentElement);
 		<div class="elementor-element elementor-element-48804d13 e-con-full e-flex e-con e-child" data-id="48804d13" data-element_type="container">
 				<div class="elementor-element elementor-element-65b29d3f elementor-widget-divider--view-line_text elementor-widget-divider--element-align-right elementor-widget elementor-widget-divider" data-id="65b29d3f" data-element_type="widget" data-widget_type="divider.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.21.0 - 26-05-2024 */
-.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-block-end:0;flex-grow:1;border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-start .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-start .elementor-divider__element{margin-inline-start:0}.elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-end .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-end .elementor-divider__element{margin-inline-end:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+					<div class="elementor-divider">
 			<span class="elementor-divider-separator">
 							<span class="elementor-divider__text elementor-divider__element">
 				Project 1				</span>
@@ -258,20 +252,18 @@ flexibility(document.documentElement);
 				</div>
 				<div class="elementor-element elementor-element-7d3551c3 elementor-widget elementor-widget-heading" data-id="7d3551c3" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.21.0 - 26-05-2024 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default"><a href="index.html@p=1056.html" target="_blank">Moustache Ki: Learning and Creativity Software</a></h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default"><a href="index.html@p=1056.html" target="_blank">Moustache Ki: Demonstrator</a></h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-2fa464c6 elementor-widget elementor-widget-text-editor" data-id="2fa464c6" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.21.0 - 26-05-2024 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Moustache Ki was born as a whiteboarding (digital chalkboard) programme just as the quarantines drew to a close. The DCC application focuses on enhancing real-time interactivity and ideation for educators and creatives. It has since garnered affection from professionals in various disciplines. Ki however is still in alpha and not yet publicly deployed. Hence, we push little product demos &#8211; as you will find here, to showcase new features and hear back from the community. We are a tiny startup and I&#8217;m the sole developer at the moment. My vision is to foster a fun lifelong learning and development culture.  Moustache Ki is free and dedicated to leave no persons behind.</p>						</div>
+							<p>We focus on enhancing real-time interactivity for educators, creatives, and any professional who not only prefer to demonstrate ideas fluidly, rather than just present them, but also cares to have their audience participate. Moustache Ki was born as a whiteboarding (digital chalkboard) programme just as the quarantines drew to a close. It has since garnered affection from professionals in various disciplines. Ki however is still in beta and not yet publicly deployed. Hence, we push little product demos &#8211; as you will find here, to showcase new features and hear back from the community. We are a tiny startup and I&#8217;m the sole developer at the moment. I hope to figure out how to make learning a staple hobby and more inclusive.  As such, Moustache Ki is <em>free</em> and dedicated to leave no one behind.</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-4e9602bf elementor-widget elementor-widget-button" data-id="4e9602bf" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
 			<a class="elementor-button elementor-button-link elementor-size-sm" href="index.html@p=1056.html" target="_blank">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
+						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
 									<span class="elementor-button-text">Learn More</span>
 					</span>
@@ -316,7 +308,7 @@ flexibility(document.documentElement);
 				</div>
 				<div class="elementor-element elementor-element-24fb4237 elementor-widget elementor-widget-heading" data-id="24fb4237" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default"><a href="index.html@p=1187.html" target="_blank">McLan Baby Store</a></h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default"><a href="mclan-baby-store/index.html" target="_blank">McLan Baby Store</a></h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-472216e0 elementor-widget elementor-widget-text-editor" data-id="472216e0" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -325,9 +317,9 @@ flexibility(document.documentElement);
 				<div class="elementor-element elementor-element-67a82fed elementor-widget elementor-widget-button" data-id="67a82fed" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-sm" href="index.html@p=1187.html" target="_blank">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="mclan-baby-store/index.html" target="_blank">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
+						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
 									<span class="elementor-button-text">Learn More</span>
 					</span>
@@ -339,7 +331,7 @@ flexibility(document.documentElement);
 		<div class="elementor-element elementor-element-68a2966d e-con-full e-flex e-con e-child" data-id="68a2966d" data-element_type="container">
 				<div class="elementor-element elementor-element-595fb313 elementor-widget elementor-widget-image" data-id="595fb313" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="945" height="771" src="wp-content/uploads/2024/08/mclan-baby-store.jpg" class="attachment-full size-full wp-image-448" alt="mclan baby store featured products" srcset="wp-content/uploads/2024/08/mclan-baby-store.jpg 945w, wp-content/uploads/2024/08/mclan-baby-store-300x245.jpg 300w, wp-content/uploads/2024/08/mclan-baby-store-768x627.jpg 768w" sizes="(max-width: 945px) 100vw, 945px" />													</div>
+													<img loading="lazy" decoding="async" width="945" height="771" src="mclan-baby-store/index.html" class="attachment-full size-full wp-image-448" alt="mclan baby store featured products" srcset="mclan-baby-store/index.html 945w, wp-content/uploads/2024/08/mclan-baby-store-300x245.jpg 300w, wp-content/uploads/2024/08/mclan-baby-store-768x627.jpg 768w" sizes="(max-width: 945px) 100vw, 945px" />													</div>
 				</div>
 				<div class="elementor-element elementor-element-205289ef elementor-absolute elementor-widget elementor-widget-html" data-id="205289ef" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="html.default">
 				<div class="elementor-widget-container">
@@ -377,7 +369,7 @@ flexibility(document.documentElement);
 					<div class="elementor-button-wrapper">
 			<a class="elementor-button elementor-button-link elementor-size-sm" href="index.html@p=1085.html" target="_blank">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
+						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
 									<span class="elementor-button-text">Learn More</span>
 					</span>
@@ -433,7 +425,7 @@ flexibility(document.documentElement);
 					<div class="elementor-button-wrapper">
 			<a class="elementor-button elementor-button-link elementor-size-sm" href="index.html@p=1129.html" target="_blank">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
+						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
 									<span class="elementor-button-text">Learn More</span>
 					</span>
@@ -489,7 +481,7 @@ flexibility(document.documentElement);
 					<div class="elementor-button-wrapper">
 			<a class="elementor-button elementor-button-link elementor-size-sm" href="index.html@p=1134.html" target="_blank">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
+						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
 									<span class="elementor-button-text">Learn More</span>
 					</span>
@@ -533,8 +525,7 @@ flexibility(document.documentElement);
 				</div>
 				<div class="elementor-element elementor-element-4dbaeacb elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="4dbaeacb" data-element_type="widget" data-widget_type="social-icons.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.21.0 - 26-05-2024 */
-.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));height:calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:inline-flex;background-color:#69727d;align-items:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#69727d}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-threads{background-color:#000}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-x-twitter{background-color:#000}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>		<div class="elementor-social-icons-wrapper elementor-grid">
+					<div class="elementor-social-icons-wrapper elementor-grid">
 							<span class="elementor-grid-item">
 					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-d0611fe" href="https://www.youtube.com/@moustacheki" target="_blank">
 						<span class="elementor-screen-only">Youtube</span>
@@ -819,26 +810,16 @@ var astra = {"break_point":"921","isRtl":"","is_scroll_to_id":"1","is_scroll_to_
 </script>
 <script src="wp-content/themes/astra/assets/js/minified/frontend.min.js@ver=4.6.16" id="astra-theme-js-js"></script>
 <script id="eael-general-js-extra">
-var localize = {"ajaxurl":"http:\/\/portfolio.test\/wp-admin\/admin-ajax.php","nonce":"b99dd48383","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"http:\/\/portfolio.test\/portfolio\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+var localize = {"ajaxurl":"http:\/\/portfolio.test\/wp-admin\/admin-ajax.php","nonce":"0b9d6d273d","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"http:\/\/portfolio.test\/portfolio\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
 </script>
-<script src="wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js@ver=5.9.22" id="eael-general-js"></script>
-<script src="wp-content/plugins/elementor/assets/js/webpack.runtime.min.js@ver=3.21.8" id="elementor-webpack-runtime-js"></script>
-<script src="wp-content/plugins/elementor/assets/js/frontend-modules.min.js@ver=3.21.8" id="elementor-frontend-modules-js"></script>
-<script src="wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js@ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js@ver=6.0.5" id="eael-general-js"></script>
+<script src="wp-content/plugins/elementor/assets/js/webpack.runtime.min.js@ver=3.24.4" id="elementor-webpack-runtime-js"></script>
+<script src="wp-content/plugins/elementor/assets/js/frontend-modules.min.js@ver=3.24.4" id="elementor-frontend-modules-js"></script>
 <script src="wp-includes/js/jquery/ui/core.min.js@ver=1.13.2" id="jquery-ui-core-js"></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.21.8","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"container_grid":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"e_lazyload":true},"urls":{"assets":"http:\/\/portfolio.test\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":982,"title":"portfolio%20%E2%80%93%20portfolio","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.24.4","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"container_grid":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_onboarding":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":"http:\/\/portfolio.test\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"http:\/\/portfolio.test\/wp-admin\/admin-ajax.php"},"nonces":{"floatingButtonsClickTracking":"02f33cbb1a"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":982,"title":"portfolio%20%E2%80%93%20portfolio","excerpt":"","featuredImage":false}};
 </script>
-<script src="wp-content/plugins/elementor/assets/js/frontend.min.js@ver=3.21.8" id="elementor-frontend-js"></script>
-<script src="wp-includes/js/underscore.min.js@ver=1.13.4" id="underscore-js"></script>
-<script id="wp-util-js-extra">
-var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
-</script>
-<script src="wp-includes/js/wp-util.min.js@ver=6.5.4" id="wp-util-js"></script>
-<script id="wpforms-elementor-js-extra">
-var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
-</script>
-<script src="wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js@ver=1.8.8.3" id="wpforms-elementor-js"></script>
+<script src="wp-content/plugins/elementor/assets/js/frontend.min.js@ver=3.24.4" id="elementor-frontend-js"></script>
 			<script>
 			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 			</script>
